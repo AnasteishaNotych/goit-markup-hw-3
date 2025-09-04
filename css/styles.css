@@ -77,8 +77,6 @@ button:focus {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .header-navigation {
@@ -109,13 +107,13 @@ button:focus {
 .header-contacts-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-list-link {
   color: #2e2f42;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-contact-items {
@@ -266,7 +264,6 @@ button:focus {
 
 /* -------------PORTFOLIO----------------- */
 .portfolio {
-  padding: 96px 156px;
 }
 
 .portfolio-title {
