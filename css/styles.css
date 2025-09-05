@@ -77,13 +77,13 @@ button:focus {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-navigation {
   font-weight: 500;
   color: #2e2f42;
   display: flex;
-  gap: 24px;
   align-items: center;
 }
 
@@ -110,13 +110,14 @@ button:focus {
 }
 
 .header-list-link {
+  display: block;
   color: #2e2f42;
   text-decoration: none;
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
 
-.header-contact-items {
+.header-contact-links {
   font-style: normal;
   color: #434455;
   letter-spacing: 0.02em;
@@ -225,8 +226,6 @@ button:focus {
 .team-list-item {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-  padding: 0px 0px 32px;
-  display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 32px;
@@ -237,8 +236,6 @@ button:focus {
 }
 
 .team-item-text {
-  display: flex;
-  flex-direction: column;
   padding: 32px 0;
 }
 
@@ -287,15 +284,9 @@ button:focus {
 }
 
 .portfolio-list-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8px;
   padding: 32px 16px;
   border: none;
   border: 1px solid #e7e9fc;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-top: none;
 }
 
@@ -305,7 +296,6 @@ button:focus {
   line-height: 1.2;
   font-weight: 500;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -313,7 +303,6 @@ button:focus {
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin-bottom: 32px;
 }
 
 /* -------------FOOTER----------------- */
@@ -323,7 +312,6 @@ button:focus {
 }
 
 .footer-container {
-  width: 264px;
 }
 
 .footer-logo {
@@ -332,6 +320,9 @@ button:focus {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .footer-logo-style {
@@ -339,8 +330,8 @@ button:focus {
 }
 
 .footer-text {
-  margin-top: 16px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
